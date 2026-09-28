@@ -1,0 +1,697 @@
+{
+  "exam": "GATE DA 2027",
+  "fullName": "Graduate Aptitude Test in Engineering - Data Science & Artificial Intelligence",
+  "paperCode": "DA",
+  "referenceSyllabus": "Official IISc Bangalore / IIT GATE DA Syllabus",
+  "version": "2027.1",
+  "subjects": [
+    {
+      "id": "prob_stats",
+      "name": "Probability and Statistics",
+      "shortName": "Prob & Stats",
+      "icon": "Sigma",
+      "color": "#3B82F6",
+      "weightageEstimated": "14-16%",
+      "description": "Probability axioms, distributions, statistical inference, hypothesis testing, and limit theorems.",
+      "topics": [
+        {
+          "id": "ps-01",
+          "subjectId": "prob_stats",
+          "name": "Permutations, Combinations & Counting Principles",
+          "subtopics": ["Factorials & Binomial coefficients", "Pigeonhole principle", "Inclusion-exclusion principle", "Combinatorial proofs"],
+          "importance": "core",
+          "estimatedHours": 4
+        },
+        {
+          "id": "ps-02",
+          "subjectId": "prob_stats",
+          "name": "Sample Space, Events & Probability Axioms",
+          "subtopics": ["Probability axioms (Kolmogorov)", "Mutually exclusive vs independent events", "Addition & multiplication theorems"],
+          "importance": "core",
+          "estimatedHours": 4
+        },
+        {
+          "id": "ps-03",
+          "subjectId": "prob_stats",
+          "name": "Conditional, Marginal & Joint Probability",
+          "subtopics": ["Law of total probability", "Joint probability distributions", "Marginalization", "Chain rule of probability"],
+          "importance": "high",
+          "estimatedHours": 5
+        },
+        {
+          "id": "ps-04",
+          "subjectId": "prob_stats",
+          "name": "Bayes' Theorem & Inference",
+          "subtopics": ["Prior & posterior probabilities", "Likelihood ratio", "Applications in classification & medical testing"],
+          "importance": "high",
+          "estimatedHours": 5
+        },
+        {
+          "id": "ps-05",
+          "subjectId": "prob_stats",
+          "name": "Random Variables & Probability Distributions",
+          "subtopics": ["Discrete vs continuous random variables", "Probability Mass Function (PMF)", "Probability Density Function (PDF)", "Cumulative Distribution Function (CDF)"],
+          "importance": "core",
+          "estimatedHours": 6
+        },
+        {
+          "id": "ps-06",
+          "subjectId": "prob_stats",
+          "name": "Expectation, Variance & Moments",
+          "subtopics": ["Conditional expectation", "Conditional variance", "Covariance & Pearson correlation coefficient", "Linearity of expectation"],
+          "importance": "high",
+          "estimatedHours": 5
+        },
+        {
+          "id": "ps-07",
+          "subjectId": "prob_stats",
+          "name": "Discrete Distributions: Bernoulli, Binomial, Poisson",
+          "subtopics": ["Bernoulli trials", "Binomial distribution properties & expectation", "Poisson process and Poisson approximation"],
+          "importance": "high",
+          "estimatedHours": 5
+        },
+        {
+          "id": "ps-08",
+          "subjectId": "prob_stats",
+          "name": "Continuous Distributions: Uniform, Exponential, Normal",
+          "subtopics": ["Uniform distribution", "Memoryless property of Exponential", "Gaussian/Normal distribution & Standard normal z-scores"],
+          "importance": "core",
+          "estimatedHours": 6
+        },
+        {
+          "id": "ps-09",
+          "subjectId": "prob_stats",
+          "name": "Central Limit Theorem & Law of Large Numbers",
+          "subtopics": ["Weak Law of Large Numbers", "Central Limit Theorem formulation", "Normal approximations for sums and averages"],
+          "importance": "core",
+          "estimatedHours": 4
+        },
+        {
+          "id": "ps-10",
+          "subjectId": "prob_stats",
+          "name": "Sampling Distributions & Confidence Intervals",
+          "subtopics": ["Sample mean & sample variance", "Standard error", "Confidence interval estimation for means and proportions"],
+          "importance": "high",
+          "estimatedHours": 5
+        },
+        {
+          "id": "ps-11",
+          "subjectId": "prob_stats",
+          "name": "Hypothesis Testing: z-test, t-test & Chi-squared Test",
+          "subtopics": ["Null & alternative hypotheses", "Type I and Type II errors", "p-values & significance levels", "Student's t-test", "Chi-squared goodness of fit"],
+          "importance": "high",
+          "estimatedHours": 6
+        }
+      ]
+    },
+    {
+      "id": "linear_algebra",
+      "name": "Linear Algebra",
+      "shortName": "Linear Algebra",
+      "icon": "Grid",
+      "color": "#8B5CF6",
+      "weightageEstimated": "12-14%",
+      "description": "Vector spaces, subspaces, linear independence, matrices, eigenvalues, SVD, and projections.",
+      "topics": [
+        {
+          "id": "la-01",
+          "subjectId": "linear_algebra",
+          "name": "Vector Spaces & Subspaces",
+          "subtopics": ["Vector space axioms over real numbers", "Subspace criteria", "Linear combinations and span"],
+          "importance": "core",
+          "estimatedHours": 4
+        },
+        {
+          "id": "la-02",
+          "subjectId": "linear_algebra",
+          "name": "Linear Dependence, Basis & Dimension",
+          "subtopics": ["Linearly independent vectors", "Basis of a vector space", "Dimension theorems", "Coordinates with respect to basis"],
+          "importance": "core",
+          "estimatedHours": 5
+        },
+        {
+          "id": "la-03",
+          "subjectId": "linear_algebra",
+          "name": "Matrices & Matrix Operations",
+          "subtopics": ["Matrix multiplication & invertibility", "Transpose & trace", "Block / partition matrices", "Idempotent matrices", "Orthogonal matrices"],
+          "importance": "high",
+          "estimatedHours": 4
+        },
+        {
+          "id": "la-04",
+          "subjectId": "linear_algebra",
+          "name": "Systems of Linear Equations & Gaussian Elimination",
+          "subtopics": ["Augmented matrices & row echelon form", "Rank-nullity theorem", "Conditions for unique, infinite, and no solutions"],
+          "importance": "core",
+          "estimatedHours": 5
+        },
+        {
+          "id": "la-05",
+          "subjectId": "linear_algebra",
+          "name": "Determinants, Rank & Nullity",
+          "subtopics": ["Determinant properties & computation", "Matrix rank calculation", "Fundamental theorem of linear algebra (4 fundamental subspaces)"],
+          "importance": "high",
+          "estimatedHours": 4
+        },
+        {
+          "id": "la-06",
+          "subjectId": "linear_algebra",
+          "name": "Projections & Projection Matrices",
+          "subtopics": ["Orthogonal complement", "Projection onto a subspace", "Projection matrix formula P = A(A^T A)^-1 A^T", "Gram-Schmidt orthogonalization"],
+          "importance": "high",
+          "estimatedHours": 5
+        },
+        {
+          "id": "la-07",
+          "subjectId": "linear_algebra",
+          "name": "Eigenvalues & Eigenvectors",
+          "subtopics": ["Characteristic polynomial", "Spectral properties", "Algebraic and geometric multiplicity", "Diagonalization of symmetric matrices"],
+          "importance": "core",
+          "estimatedHours": 6
+        },
+        {
+          "id": "la-08",
+          "subjectId": "linear_algebra",
+          "name": "Quadratic Forms & Definiteness",
+          "subtopics": ["Matrix representation of quadratic forms", "Positive definite, negative definite, semi-definite matrices", "Sylvester's criterion & eigenvalue test"],
+          "importance": "high",
+          "estimatedHours": 4
+        },
+        {
+          "id": "la-09",
+          "subjectId": "linear_algebra",
+          "name": "LU Decomposition",
+          "subtopics": ["Lower and Upper triangular matrices", "Gaussian elimination as LU factorization", "LDU and PLU decomposition"],
+          "importance": "medium",
+          "estimatedHours": 4
+        },
+        {
+          "id": "la-10",
+          "subjectId": "linear_algebra",
+          "name": "Singular Value Decomposition (SVD)",
+          "subtopics": ["Singular values & left/right singular vectors", "Compact & truncated SVD", "Applications in low-rank matrix approximation and PCA"],
+          "importance": "core",
+          "estimatedHours": 6
+        }
+      ]
+    },
+    {
+      "id": "calculus_opt",
+      "name": "Calculus and Optimization",
+      "shortName": "Calculus & Opt",
+      "icon": "TrendingUp",
+      "color": "#06B6D4",
+      "weightageEstimated": "10-12%",
+      "description": "Functions of single & multi variables, gradients, Hessians, convex optimization, and gradient descent.",
+      "topics": [
+        {
+          "id": "co-01",
+          "subjectId": "calculus_opt",
+          "name": "Functions of Single Variable, Limits & Continuity",
+          "subtopics": ["L'Hopital's rule", "Continuity at a point and interval", "Intermediate value theorem"],
+          "importance": "medium",
+          "estimatedHours": 4
+        },
+        {
+          "id": "co-02",
+          "subjectId": "calculus_opt",
+          "name": "Differentiability, Taylor Series & Single-Variable Optimization",
+          "subtopics": ["Derivatives & Mean Value Theorem", "Taylor and Maclaurin expansions", "Critical points, local/global maxima and minima"],
+          "importance": "high",
+          "estimatedHours": 5
+        },
+        {
+          "id": "co-03",
+          "subjectId": "calculus_opt",
+          "name": "Multivariable Functions & Partial Derivatives",
+          "subtopics": ["Functions f: R^n -> R", "First and second partial derivatives", "Clairaut's theorem for mixed partials"],
+          "importance": "core",
+          "estimatedHours": 4
+        },
+        {
+          "id": "co-04",
+          "subjectId": "calculus_opt",
+          "name": "Gradients & Directional Derivatives",
+          "subtopics": ["Gradient vector computation", "Directional derivative along unit vector", "Direction of steepest ascent and descent"],
+          "importance": "core",
+          "estimatedHours": 5
+        },
+        {
+          "id": "co-05",
+          "subjectId": "calculus_opt",
+          "name": "Hessian Matrix & Second-Order Analysis",
+          "subtopics": ["Symmetric Hessian matrix definition", "Second derivative test for multivariable functions", "Local minimum, maximum, and saddle points"],
+          "importance": "high",
+          "estimatedHours": 5
+        },
+        {
+          "id": "co-06",
+          "subjectId": "calculus_opt",
+          "name": "Convex Sets & Convex Functions",
+          "subtopics": ["Convex sets definition & examples", "Epigraph & Jensen's inequality", "Convexity verification via Hessian positive semi-definiteness"],
+          "importance": "high",
+          "estimatedHours": 5
+        },
+        {
+          "id": "co-07",
+          "subjectId": "calculus_opt",
+          "name": "Unconstrained & Constrained Optimization (Lagrange Multipliers)",
+          "subtopics": ["First-order optimality conditions", "Equality constraints & Lagrange multipliers", "Lagrangian function and Karush-Kuhn-Tucker (KKT) overview"],
+          "importance": "core",
+          "estimatedHours": 6
+        },
+        {
+          "id": "co-08",
+          "subjectId": "calculus_opt",
+          "name": "Gradient Descent, Learning Rate & Momentum",
+          "subtopics": ["Batch Gradient Descent update rule", "Learning rate scheduling and divergence", "Stochastic & Mini-batch Gradient Descent", "Momentum-based updates"],
+          "importance": "core",
+          "estimatedHours": 6
+        }
+      ]
+    },
+    {
+      "id": "prog_dsa",
+      "name": "Programming, Data Structures and Algorithms",
+      "shortName": "Prog & DSA",
+      "icon": "Code",
+      "color": "#10B981",
+      "weightageEstimated": "12-14%",
+      "description": "Python programming, stacks, queues, trees, searching, sorting, and fundamental graph algorithms.",
+      "topics": [
+        {
+          "id": "pd-01",
+          "subjectId": "prog_dsa",
+          "name": "Python Programming Fundamentals",
+          "subtopics": ["Data types, control structures, functions", "List comprehensions, generators, lambda expressions", "OOP principles: classes, inheritance, polymorphism"],
+          "importance": "core",
+          "estimatedHours": 6
+        },
+        {
+          "id": "pd-02",
+          "subjectId": "prog_dsa",
+          "name": "Python Built-in Structures: Lists, Tuples, Sets, Dictionaries",
+          "subtopics": ["Time complexity of operations in list and dict", "Hash maps behind python dictionaries", "Mutability and immutability"],
+          "importance": "high",
+          "estimatedHours": 4
+        },
+        {
+          "id": "pd-03",
+          "subjectId": "prog_dsa",
+          "name": "Linear Data Structures: Stacks & Queues",
+          "subtopics": ["Array and linked list implementation", "Evaluation of infix/postfix expressions", "Circular queues and priority queues"],
+          "importance": "high",
+          "estimatedHours": 5
+        },
+        {
+          "id": "pd-04",
+          "subjectId": "prog_dsa",
+          "name": "Linked Lists & Trees",
+          "subtopics": ["Singly, doubly, and circular linked lists", "Binary trees, binary search trees (BST)", "Inorder, preorder, postorder traversals", "Height and balance"],
+          "importance": "core",
+          "estimatedHours": 6
+        },
+        {
+          "id": "pd-05",
+          "subjectId": "prog_dsa",
+          "name": "Hash Tables & Collision Resolution",
+          "subtopics": ["Hash functions and load factor", "Chaining vs open addressing (linear probing, quadratic, double hashing)", "Average vs worst case complexity"],
+          "importance": "high",
+          "estimatedHours": 4
+        },
+        {
+          "id": "pd-06",
+          "subjectId": "prog_dsa",
+          "name": "Search Algorithms: Linear & Binary Search",
+          "subtopics": ["Linear search time analysis", "Binary search on sorted arrays", "Lower bound and upper bound search variants"],
+          "importance": "core",
+          "estimatedHours": 3
+        },
+        {
+          "id": "pd-07",
+          "subjectId": "prog_dsa",
+          "name": "Sorting Algorithms: Quadratic & Divide-and-Conquer",
+          "subtopics": ["Selection sort, bubble sort, insertion sort", "Merge sort analysis (recurrence relations)", "Quicksort: pivot selection, best/worst case O(n log n) vs O(n^2)"],
+          "importance": "core",
+          "estimatedHours": 6
+        },
+        {
+          "id": "pd-08",
+          "subjectId": "prog_dsa",
+          "name": "Graph Theory & Representations",
+          "subtopics": ["Directed vs undirected graphs", "Adjacency matrix vs adjacency list", "Degrees, connected components, cycles"],
+          "importance": "core",
+          "estimatedHours": 4
+        },
+        {
+          "id": "pd-09",
+          "subjectId": "prog_dsa",
+          "name": "Graph Traversals: BFS & DFS",
+          "subtopics": ["Breadth-First Search (queue based, shortest path in unweighted graphs)", "Depth-First Search (stack based, cycle detection)", "Topological sorting in DAGs"],
+          "importance": "core",
+          "estimatedHours": 6
+        },
+        {
+          "id": "pd-10",
+          "subjectId": "prog_dsa",
+          "name": "Shortest Paths (Dijkstra's Algorithm)",
+          "subtopics": ["Greedy strategy in Dijkstra", "Priority queue implementation O((V+E)log V)", "Limitations with negative edge weights"],
+          "importance": "high",
+          "estimatedHours": 5
+        },
+        {
+          "id": "pd-11",
+          "subjectId": "prog_dsa",
+          "name": "Minimum Spanning Trees (Prim's & Kruskal's)",
+          "subtopics": ["Cut property and cycle property", "Kruskal's algorithm with Disjoint Set Union (DSU)", "Prim's algorithm with priority queues"],
+          "importance": "high",
+          "estimatedHours": 5
+        }
+      ]
+    },
+    {
+      "id": "dbms_wh",
+      "name": "Database Management and Warehousing",
+      "shortName": "DBMS & Warehousing",
+      "icon": "Database",
+      "color": "#F59E0B",
+      "weightageEstimated": "10-12%",
+      "description": "ER models, Relational algebra, SQL, Normalization, Transactions, B-Trees, and Data Warehousing.",
+      "topics": [
+        {
+          "id": "db-01",
+          "subjectId": "dbms_wh",
+          "name": "ER-Model & Relational Mapping",
+          "subtopics": ["Entities, attributes, relationships, cardinalities", "Weak entity sets", "Conversion of ER diagrams to relational schemas"],
+          "importance": "medium",
+          "estimatedHours": 4
+        },
+        {
+          "id": "db-02",
+          "subjectId": "dbms_wh",
+          "name": "Relational Model, Integrity Constraints & Relational Algebra",
+          "subtopics": ["Primary, foreign, candidate, super keys", "Select, project, Cartesian product, join, division", "Tuple relational calculus basics"],
+          "importance": "core",
+          "estimatedHours": 6
+        },
+        {
+          "id": "db-03",
+          "subjectId": "dbms_wh",
+          "name": "SQL Queries, Aggregates & Joins",
+          "subtopics": ["SELECT, WHERE, GROUP BY, HAVING, ORDER BY", "INNER, LEFT, RIGHT, FULL OUTER joins", "Nested subqueries, correlated queries, EXISTS, IN"],
+          "importance": "core",
+          "estimatedHours": 6
+        },
+        {
+          "id": "db-04",
+          "subjectId": "dbms_wh",
+          "name": "Functional Dependencies & Normalization (1NF to BCNF)",
+          "subtopics": ["Closure of functional dependencies and attribute sets", "1NF, 2NF, 3NF, Boyce-Codd Normal Form (BCNF)", "Lossless join and dependency preserving decompositions"],
+          "importance": "core",
+          "estimatedHours": 7
+        },
+        {
+          "id": "db-05",
+          "subjectId": "dbms_wh",
+          "name": "File Organization & Indexing (B and B+ Trees)",
+          "subtopics": ["Primary, clustering, and secondary indices", "B-tree and B+ tree search, insertion, and deletion", "Order of nodes and maximum/minimum keys per node"],
+          "importance": "high",
+          "estimatedHours": 6
+        },
+        {
+          "id": "db-06",
+          "subjectId": "dbms_wh",
+          "name": "Transactions & Concurrency Control (ACID & 2PL)",
+          "subtopics": ["ACID properties", "Schedules: serial, conflict serializable, view serializable", "Two-Phase Locking (2PL) protocol, deadlocks and starvation"],
+          "importance": "high",
+          "estimatedHours": 6
+        },
+        {
+          "id": "db-07",
+          "subjectId": "dbms_wh",
+          "name": "Data Warehousing: Star, Snowflake Schemas & Dimensional Modeling",
+          "subtopics": ["OLTP vs OLAP characteristics", "Fact tables vs dimension tables", "Star schema vs Snowflake schema design and normalization trade-offs"],
+          "importance": "core",
+          "estimatedHours": 5
+        },
+        {
+          "id": "db-08",
+          "subjectId": "dbms_wh",
+          "name": "OLAP Operations: Slice, Dice, Roll-up & Drill-down",
+          "subtopics": ["Multidimensional data cubes", "Roll-up (aggregation) and drill-down (detail)", "Slice and dice query operations, pivoting"],
+          "importance": "high",
+          "estimatedHours": 4
+        }
+      ]
+    },
+    {
+      "id": "machine_learning",
+      "name": "Machine Learning",
+      "shortName": "Machine Learning",
+      "icon": "Cpu",
+      "color": "#EC4899",
+      "weightageEstimated": "16-18%",
+      "description": "Supervised learning, unsupervised learning, clustering, PCA, neural networks, and model validation.",
+      "topics": [
+        {
+          "id": "ml-01",
+          "subjectId": "machine_learning",
+          "name": "Linear Regression & Regularization (Ridge, Lasso)",
+          "subtopics": ["Ordinary least squares (OLS) derivation", "Closed-form normal equations", "Ridge (L2) vs Lasso (L1) regularization, sparsity & feature selection"],
+          "importance": "core",
+          "estimatedHours": 6
+        },
+        {
+          "id": "ml-02",
+          "subjectId": "machine_learning",
+          "name": "Logistic Regression & Classification Fundamentals",
+          "subtopics": ["Sigmoid function and log-odds interpretation", "Binary cross-entropy loss function", "Maximum Likelihood Estimation (MLE) and decision boundaries"],
+          "importance": "core",
+          "estimatedHours": 5
+        },
+        {
+          "id": "ml-03",
+          "subjectId": "machine_learning",
+          "name": "k-Nearest Neighbours (k-NN)",
+          "subtopics": ["Distance metrics (Euclidean, Manhattan, Minkowski)", "Effect of parameter k on bias and variance", "Curse of dimensionality in nearest neighbor algorithms"],
+          "importance": "high",
+          "estimatedHours": 4
+        },
+        {
+          "id": "ml-04",
+          "subjectId": "machine_learning",
+          "name": "Naive Bayes Classifier",
+          "subtopics": ["Class conditional independence assumption", "Gaussian, Multinomial, and Bernoulli Naive Bayes", "Laplace smoothing for zero-frequency problem"],
+          "importance": "core",
+          "estimatedHours": 5
+        },
+        {
+          "id": "ml-05",
+          "subjectId": "machine_learning",
+          "name": "Linear Discriminant Analysis (LDA)",
+          "subtopics": ["Fisher's linear discriminant criteria", "Between-class vs within-class scatter matrices", "Dimensionality reduction for classification"],
+          "importance": "medium",
+          "estimatedHours": 4
+        },
+        {
+          "id": "ml-06",
+          "subjectId": "machine_learning",
+          "name": "Support Vector Machines (SVM)",
+          "subtopics": ["Hard margin vs soft margin hyperplanes", "Support vectors & margin maximization", "Dual formulation, slack variables (C parameter)", "Kernel trick (RBF, Polynomial, Sigmoid)"],
+          "importance": "core",
+          "estimatedHours": 7
+        },
+        {
+          "id": "ml-07",
+          "subjectId": "machine_learning",
+          "name": "Decision Trees: ID3, C4.5 & CART",
+          "subtopics": ["Information gain and Shannon entropy", "Gini impurity metric", "Variance reduction in regression trees", "Pruning techniques to prevent overfitting"],
+          "importance": "core",
+          "estimatedHours": 6
+        },
+        {
+          "id": "ml-08",
+          "subjectId": "machine_learning",
+          "name": "Ensemble Methods: Bagging, Random Forest & Boosting",
+          "subtopics": ["Bootstrap aggregating (Bagging)", "Random Forest: feature subspace randomization & out-of-bag error", "Boosting concept: AdaBoost weighted instances & Gradient Boosting (GBDT)"],
+          "importance": "core",
+          "estimatedHours": 6
+        },
+        {
+          "id": "ml-09",
+          "subjectId": "machine_learning",
+          "name": "Clustering: k-Means, k-Medoids & Hierarchical",
+          "subtopics": ["k-Means algorithm, Lloyd's heuristic, inertia, elbow method", "k-Medoids and robustness to outliers", "Agglomerative hierarchical clustering & dendrograms (single, complete, average linkage)"],
+          "importance": "core",
+          "estimatedHours": 5
+        },
+        {
+          "id": "ml-10",
+          "subjectId": "machine_learning",
+          "name": "Dimensionality Reduction: PCA & t-SNE",
+          "subtopics": ["Principal Component Analysis covariance eigendecomposition", "Explained variance ratio and scree plots", "t-SNE overview for non-linear high-dimensional visualization"],
+          "importance": "core",
+          "estimatedHours": 6
+        },
+        {
+          "id": "ml-11",
+          "subjectId": "machine_learning",
+          "name": "Neural Networks: Perceptron & Multilayer Perceptron (MLP)",
+          "subtopics": ["Linear threshold units and XOR problem", "Activation functions: ReLU, Sigmoid, Tanh, Softmax", "Feedforward architecture and matrix representation"],
+          "importance": "core",
+          "estimatedHours": 6
+        },
+        {
+          "id": "ml-12",
+          "subjectId": "machine_learning",
+          "name": "Backpropagation, Loss Functions & Regularization in NN",
+          "subtopics": ["Chain rule of calculus in computational graphs", "Vanishing and exploding gradients", "Dropout, weight decay (L2), Batch Normalization"],
+          "importance": "core",
+          "estimatedHours": 6
+        },
+        {
+          "id": "ml-13",
+          "subjectId": "machine_learning",
+          "name": "Model Evaluation, Cross-Validation & Tradeoffs",
+          "subtopics": ["K-fold and stratified cross-validation", "Bias-variance tradeoff decomposition", "Confusion matrix: Precision, Recall, F1-score, Specificity", "ROC-AUC curves and threshold selection"],
+          "importance": "high",
+          "estimatedHours": 5
+        }
+      ]
+    },
+    {
+      "id": "artificial_intelligence",
+      "name": "Artificial Intelligence",
+      "shortName": "AI",
+      "icon": "Bot",
+      "color": "#6366F1",
+      "weightageEstimated": "12-14%",
+      "description": "Uninformed & informed search (A*), adversarial games, logic, inference, and Bayesian networks.",
+      "topics": [
+        {
+          "id": "ai-01",
+          "subjectId": "artificial_intelligence",
+          "name": "Uninformed Search Strategies",
+          "subtopics": ["Breadth-First Search (BFS)", "Depth-First Search (DFS)", "Uniform Cost Search (Dijkstra's equivalent in state space)", "Depth-Limited and Iterative Deepening Search (IDDFS)"],
+          "importance": "core",
+          "estimatedHours": 5
+        },
+        {
+          "id": "ai-02",
+          "subjectId": "artificial_intelligence",
+          "name": "Informed (Heuristic) Search: A* & Best-First Search",
+          "subtopics": ["Greedy Best-First Search", "A* search algorithm f(n) = g(n) + h(n)", "Admissibility and consistency/monotonicity of heuristics", "Optimality of A*"],
+          "importance": "core",
+          "estimatedHours": 6
+        },
+        {
+          "id": "ai-03",
+          "subjectId": "artificial_intelligence",
+          "name": "Adversarial Search: Minimax & Alpha-Beta Pruning",
+          "subtopics": ["Two-player zero-sum game trees", "Minimax decision rule", "Alpha-Beta pruning mechanics and node cut-off conditions"],
+          "importance": "high",
+          "estimatedHours": 5
+        },
+        {
+          "id": "ai-04",
+          "subjectId": "artificial_intelligence",
+          "name": "Propositional Logic & Truth Tables",
+          "subtopics": ["Syntax and semantics of propositional formulas", "Logical connectives, truth tables, tautologies and satisfiability (SAT)", "Conjunctive Normal Form (CNF) & Horn clauses"],
+          "importance": "core",
+          "estimatedHours": 5
+        },
+        {
+          "id": "ai-05",
+          "subjectId": "artificial_intelligence",
+          "name": "First-Order Predicate Logic (FOL)",
+          "subtopics": ["Universal and existential quantifiers", "Predicates, functions, constants, and variables", "Translation of English statements into First-Order Logic sentences"],
+          "importance": "core",
+          "estimatedHours": 6
+        },
+        {
+          "id": "ai-06",
+          "subjectId": "artificial_intelligence",
+          "name": "Inference in Logic: Resolution & Chaining",
+          "subtopics": ["Modus Ponens & Modus Tollens", "Forward chaining and backward chaining in knowledge bases", "Unification algorithm and Resolution refutation proofs"],
+          "importance": "high",
+          "estimatedHours": 6
+        },
+        {
+          "id": "ai-07",
+          "subjectId": "artificial_intelligence",
+          "name": "Reasoning Under Uncertainty: Bayesian Networks",
+          "subtopics": ["Directed Acyclic Graphs (DAGs) representing joint distributions", "Conditional independence and d-separation criteria", "Exact inference by enumeration and variable elimination"],
+          "importance": "core",
+          "estimatedHours": 7
+        }
+      ]
+    },
+    {
+      "id": "general_aptitude",
+      "name": "General Aptitude",
+      "shortName": "General Aptitude",
+      "icon": "Compass",
+      "color": "#14B8A6",
+      "weightageEstimated": "15%",
+      "description": "Verbal aptitude, quantitative aptitude, analytical reasoning, and spatial aptitude.",
+      "topics": [
+        {
+          "id": "ga-01",
+          "subjectId": "general_aptitude",
+          "name": "Verbal Aptitude: Grammar & Vocabulary",
+          "subtopics": ["Tenses, subject-verb agreement, prepositions, conjunctions", "Contextual vocabulary, antonyms and synonyms", "Idioms and phrasal verbs"],
+          "importance": "core",
+          "estimatedHours": 4
+        },
+        {
+          "id": "ga-02",
+          "subjectId": "general_aptitude",
+          "name": "Verbal Aptitude: Reading Comprehension & Sequencing",
+          "subtopics": ["Passage reading and critical inference", "Narrative sequencing and sentence reordering", "Paragraph summary & tone analysis"],
+          "importance": "high",
+          "estimatedHours": 4
+        },
+        {
+          "id": "ga-03",
+          "subjectId": "general_aptitude",
+          "name": "Quantitative Aptitude: Data Interpretation",
+          "subtopics": ["Tables, bar graphs, and line graphs", "Pie charts and multi-dataset graphs", "Percentage change and ratio comparisons"],
+          "importance": "core",
+          "estimatedHours": 5
+        },
+        {
+          "id": "ga-04",
+          "subjectId": "general_aptitude",
+          "name": "Quantitative Aptitude: Number Theory, Series & Algebra",
+          "subtopics": ["Exponents, powers, logarithms", "Arithmetic and Geometric Progressions (AP/GP)", "Simple equations, profit & loss, work and time, speed & distance"],
+          "importance": "core",
+          "estimatedHours": 5
+        },
+        {
+          "id": "ga-05",
+          "subjectId": "general_aptitude",
+          "name": "Quantitative Aptitude: Geometry & Mensuration",
+          "subtopics": ["2D plane geometry: triangles, circles, polygons", "Mensuration: perimeter, area, volume of cylinders, cones, spheres"],
+          "importance": "medium",
+          "estimatedHours": 4
+        },
+        {
+          "id": "ga-06",
+          "subjectId": "general_aptitude",
+          "name": "Analytical Aptitude: Logic, Syllogisms & Analogy",
+          "subtopics": ["Deductive and inductive arguments", "Syllogisms and Venn diagram representations", "Analogy and classification reasoning"],
+          "importance": "core",
+          "estimatedHours": 5
+        },
+        {
+          "id": "ga-07",
+          "subjectId": "general_aptitude",
+          "name": "Spatial Aptitude: Transformations, Paper Folding & Patterns",
+          "subtopics": ["2D and 3D shape transformations (rotation, translation, mirroring)", "Paper folding and punch-hole patterns", "Grouping, assembling shapes, and block counting"],
+          "importance": "high",
+          "estimatedHours": 4
+        }
+      ]
+    }
+  ]
+}
